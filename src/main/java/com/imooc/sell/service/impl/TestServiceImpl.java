@@ -24,7 +24,7 @@ public class TestServiceImpl implements TestService {
     @Override
     public String getAccess(String role) {
         if(!StringUtils.isEmpty(role)&&role.equals("admin")){
-            return "001";
+            return "001；002";
         }
         return "error role";
     }
