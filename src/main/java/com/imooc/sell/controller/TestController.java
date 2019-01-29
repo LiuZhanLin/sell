@@ -20,6 +20,10 @@ public class TestController {
 
     @RequestMapping("/test")
     public String Test(@RequestParam("id") String id){
-        return testService.getIdByName(id);
+        return testService.getRolebyId(id);
+    }
+    @RequestMapping("/get_access")
+    public String getAccess(@RequestParam("role") String role){
+        return testService.getAccess(role);
     }
 }

@@ -11,6 +11,8 @@ import org.springframework.stereotype.Service;
  */
 public interface TestService {
 
-   String getIdByName(String id);
+   String getRolebyId(String id);
+
+   String getAccess(String role);
 
 }
