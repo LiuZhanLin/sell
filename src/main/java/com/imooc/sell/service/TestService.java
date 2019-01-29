@@ -1,5 +1,7 @@
 package com.imooc.sell.service;
 
+import org.springframework.stereotype.Service;
+
 /**
  * 描述:
  * test服务类
@@ -7,5 +9,8 @@ package com.imooc.sell.service;
  * @author liuzhanlin
  * @create 2019-01-29 12:34
  */
-public class TestService {
+public interface TestService {
+
+   String getIdByName(String id);
+
 }
