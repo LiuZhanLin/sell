@@ -1,0 +1,7 @@
+
+logging:
+  config: classpath:logback-spring.xml
+server:
+  port: 8091
+  servlet:
+    context-path: /cf
